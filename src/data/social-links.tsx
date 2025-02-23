@@ -12,24 +12,10 @@ const socialLinks = [
     ),
   },
   {
-    name: 'Facebook',
-    href: process.env.NEXT_PUBLIC_SOCIAL_FACEBOOK,
-    icon: (props) => (
-        <FontAwesomeIcon icon={faFacebook} {...props} />
-    ),
-  },
-  {
     name: 'Instagram',
     href: process.env.NEXT_PUBLIC_SOCIAL_INSTAGRAM,
     icon: (props) => (
         <FontAwesomeIcon icon={faInstagram} {...props} />
-    ),
-  },
-  {
-    name: 'Twitter',
-    href: process.env.NEXT_PUBLIC_SOCIAL_TWITTER,
-    icon: (props) => (
-        <FontAwesomeIcon icon={faTwitter} {...props} />
     ),
   },
   {
