@@ -1,5 +1,4 @@
 import PostCard from "@/components/PostCard";
-import DisqusComments from "@/components/DisqusComments";
 import {GetStaticProps} from "next";
 import {
     getPostBySlug,
@@ -99,7 +98,7 @@ const BlogPostPage = ({post, relatedPosts}: PageProps) => {
                 </div>
 
                 <div className="mx-auto max-w-7xl pb-12 md:pb-20 pt-16 px-4 sm:px-6 border-t-2 border-gray-100">
-                    <DisqusComments id={post.slug} title={post.title} />
+                    // TODO : Yorum sistemi
                 </div>
             </LayoutWithoutContainer>
         </>
