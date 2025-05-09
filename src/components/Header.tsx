@@ -13,6 +13,7 @@ import TextLogo from "@/components/TextLogo";
 import {classNames} from "@/helpers/classNames";
 
 const navigation = [
+  { name: 'header.blog', href: '/blog' },
   { name: 'header.projects', href: '/projects' },
   { name: 'header.about', href: '/about' },
   { name: 'header.resume', href: '/resume.pdf', target: "_blank" },
