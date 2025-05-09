@@ -20,6 +20,7 @@ import PageSubtitle from "@/components/PageSubtitle";
 import ArticleDate from "@/components/ArticleDate";
 import Content from "@/components/Content";
 import NoData from "@/components/NotData";
+import GiscusComments from '@/components/GiscusComments';
 
 type PageProps = {
     post?: Post
@@ -98,7 +99,7 @@ const BlogPostPage = ({post, relatedPosts}: PageProps) => {
                 </div>
 
                 <div className="mx-auto max-w-7xl pb-12 md:pb-20 pt-16 px-4 sm:px-6 border-t-2 border-gray-100">
-                    // TODO : Yorum sistemi
+                    <GiscusComments />
                 </div>
             </LayoutWithoutContainer>
         </>
